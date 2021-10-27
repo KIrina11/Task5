@@ -16,4 +16,5 @@
 Вариант 17
 
 s >= 2, s — четное (в примере ниже: s = 8)
+
 ![2021-10-27_03-25-26](https://user-images.githubusercontent.com/90615217/138979920-6a9bd4f4-a2fc-43dc-9c13-c9bdecb49624.png)
