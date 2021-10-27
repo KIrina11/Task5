@@ -104,18 +104,17 @@ public class Main {
 
                 slash--;
                 gap++;
+            }
+            if (s == 6) {
+                printLastLine(gap - 1, slash + 1);
+
+                slash--;
+                gap++;
             } else {
-                if (s == 6) {
-                    printLastLine(gap - 1, slash + 1);
+                printLastLine(gap - (s - s / 2 - 2), slash + s / 2 - 2);
 
-                    slash--;
-                    gap++;
-                } else {
-                    printLastLine(gap - (s - s / 2 - 2), slash + s / 2 - 2);
-
-                    slash--;
-                    gap++;
-                }
+                slash--;
+                gap++;
             }
         }
     }
