@@ -34,11 +34,11 @@ public class Main {
         printFirstLine(gap, slash);
 
         if (s != 2) {                                //если s = 2 эти действия не нужны
-            printTheIntermediatePart1(slash, gap, s);
+            printIntermediatePart1(slash, gap, s);
 
             printCentralPart(slash, s);
 
-            printTheIntermediatePart2(slash, gap, s);
+            printIntermediatePart2(slash, gap, s);
         }
 
         printLastLine(gap, slash);
@@ -64,7 +64,7 @@ public class Main {
         System.out.println();
     }
 
-    private static void printTheIntermediatePart1(int slash, int gap, int s) {
+    private static void printIntermediatePart1(int slash, int gap, int s) {
         for (int a = 0; a < s / 2 - 2; a++) {
             slash++;
             gap--;
@@ -97,7 +97,7 @@ public class Main {
         System.out.println();
     }
 
-    private static void printTheIntermediatePart2(int slash, int gap, int s) {
+    private static void printIntermediatePart2(int slash, int gap, int s) {
         for (int a = 0; a < s / 2 - 2; a++) {
             if (s == 4) {
                 printLastLine(gap, slash);
