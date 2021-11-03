@@ -18,7 +18,7 @@ public class Main {
         if (size < 2 || size % 2 != 0) { //проверка размера на соответствие условию задачи
             System.out.println("The program only works with even "
                     + "numbers greater than or equal to 2");
-            return readRhombusSize(); //прекращение работы программы с выводом комментария к ошибке
+            return readRhombusSize();
         }
         return size;
     }
